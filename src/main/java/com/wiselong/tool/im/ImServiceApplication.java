@@ -9,7 +9,7 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 @SpringBootApplication
 @MapperScan("com.wiselong.tool.dao")
-@EnableScheduling // 开启定时任务功能
+// 开启定时任务功能 @EnableScheduling
 @EnableWebMvc
 public class ImServiceApplication {
 
